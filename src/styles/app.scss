@@ -1,0 +1,37 @@
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+$body-bg: $gray-900;
+$body-color: $gray-100;
+
+@import "bootstrap";
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom: 0.5rem;
+}
+
+a {
+	color: $gray-100;
+}
+
+a:hover {
+	color: $gray-500;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	list-style-type: none;
+}
